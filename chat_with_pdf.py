@@ -5,7 +5,7 @@ headers = {
     "Content-Type": "application/json",
 }
 
-questions = ["question 1", "question 2",	"question 3"] # Adjust accordingly
+questions = ["question 1", "question 2", "question 3"] # Adjust accordingly
 
 for index, row in df.iterrows():
   for question in questions:
